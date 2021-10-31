@@ -96,6 +96,7 @@ header section p {
 }
 
 footer {
+	/* grid-column-start: 2; */
 	background: rgba(62, 219, 240, 0.1);
 }
 
