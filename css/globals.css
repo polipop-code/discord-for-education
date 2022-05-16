@@ -6,12 +6,15 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    color: #1b262c;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4a4a4a;
+    text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -23,16 +26,6 @@ h6 {
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-p {
-    text-align: justify;
-    line-height: 1.6em;
-    font-size: 1.8rem;
-}
-
 a {
     text-decoration: none;
-}
-
-strong {
-    color: #687980;
 }

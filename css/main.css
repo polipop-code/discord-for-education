@@ -1,88 +1,109 @@
-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-header h1 {
-    padding: 4rem 0;
-    font-size: 2.8rem;
-    text-align: center;
-}
-
-header img {
-    width: 200px;
-    margin-bottom: 4rem;
-    border-radius: 50%;
-    align-self: center;
-}
-
-header section {
-    width: 320px;
-    height: 80px;
-    margin: 0 auto 4rem;
-    border-radius: 2.4rem;
-    text-align: center;
-    color: #fffffc;
-    background-color: #2c3a45;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header section h2 {
-    font-size: 2rem;
-}
-
-main {
-    width: 100%;
-    padding: 0rem 2rem 4rem;
-}
-
-.main_section_description {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.main_section_description p {
+/* Header */
+.header {
     width: 100%;
     margin-bottom: 4rem;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.header img {
+    width: 8rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+/* Main */
+.main {
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
+}
+
+.main_hi_section {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_hi_section img {
+    width: 80%;
+    margin-bottom: 2rem;
     border-radius: 2.4rem;
-    color: #333;
-    background-color: #efefef;
 }
 
-.main_section_description iframe {
-	margin: 0 auto 4rem;
+.main_hi_section h2 {
+    font-size: 1.8rem;
 }
 
-.main_section_description button {
-    width: 320px;
+.main article {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 2.4rem;
+    background-color: #fafbfc;
+    display: flex;
+    flex-direction: column;
+}
+
+.main article button {
+    width: 80%;
     height: 80px;
-    margin: 0 auto 4rem;
+    margin: 4rem auto;
     padding: 2rem;
     border: none;
     border-radius: 2.4rem;
     text-align: center;
-    font-size: 2rem;
     background-color: #7289da;
     transition: all ease-in-out 0.2s;
 }
 
-.main_section_description button:hover {
+.main article button:hover {
     transform: scale(1.05);
 }
 
-.main_section_description button a {
+.main article button a {
+    font-size: 1.8rem;
     color: #fffffc;
 }
 
-@media (min-width: 768px) {
-    header,
-    main {
-        width: 720px;
-        margin: 0 auto;
+.main_p_end_note {
+    padding: 2rem;
+    border-radius: 2.4rem;
+    background-color: #ffe69a;
+}
+
+@media (min-width: 600px) {
+    .header {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .main {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header h1 {
+        font-size: 3.2rem;
+    }
+
+    .main_hi_section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main_hi_section img {
+        width: 40%;
+    }
+
+    .main_hi_section h2 {
+        font-size: 2.4rem;
     }
 }
