@@ -1,164 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-		<meta name="viewport" content="width=1000" />
-		<title>Discord for education</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DfE</title>
 
-		<link rel="stylesheet" href="./css/globals.css" />
-		<link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/globals.css" />
+        <link rel="stylesheet" href="./css/main.css" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<header>
-			<section>
-				<h1>Bienvenido a Discord for education</h1>
-				<p>Un proyecto para aumentar la calidad de tus clases online</p>
-			</section>
-		</header>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito:wght@300;400;700;900&display=swap"
+            rel="stylesheet"
+        />
 
-		<main>
-			<section class="main__section">
-				<h2>Hola, mi nombre es Bit-IA</h2>
-				<p>
-					Tu asistente personal para configurar tu aula virtual en la aplicación
-					Discord
-				</p>
-				<img
-					src="https://i.pinimg.com/originals/1b/92/be/1b92be9e26c6e1e1e29c3bfed1b68e5e.jpg"
-					alt="Bit-IA picture"
-				/>
-				<p></p>
-			</section>
-			<section class="main__section--description">
-				<p>
-					Estoy aquí para ayudarte, primero tienes que registrarte en
-					<a href="https://discord.com/" target="_blank">Discord.com</a> y crear
-					tu propio servidor. No es dificil, así que confio en que lo harás
-					bien.
-					<br />
-					<br />
-					<strong> ¿Qué es discord?</strong> te preguntarás.<br />
-					Discord es una aplicación de comunicación basada en servidores, donde
-					cada servidor tiene categorías y estas contienen canales, canales que
-					tienen tipos:
-					<strong>"Texto" </strong> y <strong> "Voz".</strong>
-					<br />
-					<br />
-					En los canales de <strong>Texto</strong> puedes escribir, compartir
-					archivos y enlaces, tal cual un grupo de whatsapp.
-					<br />
-					<br />
-					Mientras que en los canales de <strong>Voz</strong> puedes hacer
-					transmisiones en vivo y compartir pantalla, cámara y voz... ¿Alguien
-					dijo clases en linea? 😄
-					<br />
-					<br />
-					Una vez entendido esto, es hora de poner manos a la obra, pero primero
-					necesito que me dejes entrar a tu servidor dando clic a la invitación
-					de aquí abajo.
-				</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-				<div class="main__section--button-container">
-					<button>
-						<a
-							href="https://discord.com/oauth2/authorize?client_id=904816237010354237&scope=bot&permissions=271699064"
-							target="_blank"
-							>Invitar a Biti-IA un helado 🍨</a
-						>
-					</button>
-				</div>
+    <body>
+        <header>
+            <h1>Discord for educational</h1>
 
-				<p>
-					<strong>Nota:</strong><br />
-					Debes tener una sesion iniciada en tu navegador o la aplicación de
-					escritorio o móvil de Discord para que pueda entrar.
-					<br />
-					<br />
-					No te preocupes si hasta ahora no entiendes mucho, mi creador me
-					programó para que yo cree y configure todos los canales de texto, voz,
-					roles y permisos que necesitarás en un principio, así que no te
-					preocupes.
-					<br />
-					<br />
-					Ahora, a trabajar: ve a tu canal de texto por defecto de tu servidor y
-					simplemente escribe
-					<strong>.classroom</strong>
-					<br />
-					<br />
-					Por si acaso y las dudas te dejare este video explicativo que te dirá
-					de qué va este proyecto.
-				</p>
-				<div class="main__section--video-container">
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/C0idBUcKSFE"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
-				</div>
-				<p class="main__section--p-alert">
-					<strong>Nota importante:</strong><br />
-					Mi creador es un vago así que estoy llena de bugs y se supone que
-					debería tener más funciones, pero hey, al menos estoy viva. 😄<br />
-					La buena noticia es que voy a recibir mantenimiento constante por un
-					mes hasta mediados de julio.
-				</p>
-				<h3>Funcionalidades</h3>
-				<p>
-					<strong>@all</strong> <br />
-					Escribir @all en un canal de texto seguido de cualquier mensaje
-					enviará una notificación push a todos los miembros del servidor.
-					<br />
-					Por ejemplo, intenta escribir "<i>@all Hola mundo!</i>" sin las
-					comillas.
-					<br />
-					<br />
-					<strong>@user</strong> <br />
-					Escribir "<i>@</i>" inmediatamente seguido del nombre de cualquier
-					usuario dentro del servidor enviará una notificación push a ese
-					usuario en específico. <br />
-					Puedes acompañar esa mención de usuario con un mensaje de texto.
-					<br />
-					<br />
-					<strong>Timeline</strong> <br />
-					Discord archiva la fecha y hora a la que se ha enviado un mensaje,
-					mostrando la hora exacta si ha pasado menos de un dia y la fecha
-					cuando ha pasado más de un día. <br />
-					Así que se acabó el "Es que no me llego el mensaje". 😗
-					<br />
-					<br />
-					<strong>Nota:</strong> <br />
-					Discord cuenta con una versión de pago, las diferencias entre esta y
-					la versión gratuita es que:
-				</p>
-				<p class="main__section--p-details">
-					<mark>
-						Los usuarios gratuitos no se pueden sumar documentos de más de 10MB
-					</mark>
-					<br />
-					<mark> La transmisión de video está limitada a 720p o HD </mark>
-					<br />
-					<mark>
-						La tasa de cuadros por segundo en una transmisión está limitada a
-						30fps
-					</mark>
-				</p>
-			</section>
-		</main>
-		<footer>
-			<p>Desarrollado por @polipop_art 🤍</p>
-		</footer>
-	</body>
+            <img
+                src="https://i.pinimg.com/originals/1b/92/be/1b92be9e26c6e1e1e29c3bfed1b68e5e.jpg"
+                alt="Bit-IA picture"
+            />
+            <section class="header_section_welcome">
+                <h2>Hola, mi nombre es Bit-IA.</h2>
+            </section>
+        </header>
+
+        <main>
+            <article class="main_section_description">
+                <p>
+                    Y Estoy aquí para ayudarte (￣3￣)╭
+                    <br />
+                    Pero primero tienes que registrarte en
+                    <a href="https://discord.com/" target="_blank">Discord.com</a> y crear tu propio
+                    servidor. No es dificil, así que confio en que lo harás bien.
+                    <br />
+                    <br />
+                    Ahora manos a la obra, pero.... ammm... primero necesito que me dejes entrar a
+                    tu servidor, da clic al boton de aquí abajo.
+                </p>
+
+                <button type="button">
+                    <a
+                        href="https://discord.com/oauth2/authorize?client_id=904816237010354237&scope=bot&permissions=271699064"
+                        target="_blank"
+                        >Invitar a Biti-IA un helado 🍨</a
+                    >
+                </button>
+
+                <iframe
+                    width="80%"
+                    height="315"
+                    src="https://www.youtube.com/embed/C0idBUcKSFE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+
+                <p>
+                    <strong>Nota importante:</strong>
+                    <br />
+                    Solo voy a recibir mantenimiento por unos meses hasta mediados de julio del 2021
+                    donde mis funcionalidades dejaran de estar disponibles y mi vida habra llegado a
+                    su fin 〒▽〒
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p>Desarrollado por @polipop_art 🤍</p>
+        </footer>
+    </body>
 </html>

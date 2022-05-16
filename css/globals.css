@@ -1,47 +1,38 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-	font-family: "Lato", sans-serif;
-	color: #1b262c;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    color: #1b262c;
 }
 
-a {
-	text-decoration: none;
-	color: #ffab73;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 p {
-	display: block;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	line-height: 1.6em;
+    text-align: justify;
+    line-height: 1.6em;
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 strong {
-	color: #687980;
-}
-
-header,
-main,
-footer {
-	display: grid;
-	grid-template-columns: 1fr 80rem 1fr;
-}
-
-@media (max-width: 1080px) {
-	header,
-	main,
-	footer {
-		grid-template-columns: 3% 1fr 3%;
-	}
+    color: #687980;
 }
