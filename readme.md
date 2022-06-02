@@ -1,3 +1,12 @@
-Bit-IA is a Discord bot whose function is to create a template so that teachers and students can take their classes online within a Discord server.
+# The Discord for education landing page
 
-The project is under maintenance and the bot is not available at the moment.
+Here, you can invite to Bit-IA to your server and figure out more about the project. Go to the
+[Landing page](https://polipop-code.github.io/discord-for-education/).
+### ⚠ WARNING
+The develop timeline for the project is already ended, and it not receives maintenance
+or updates anymore.
+
+The original discord API v11.6.4 used to develop this project is already out of date.
+## Documentation (Spanish)
+The original documentation was already updated, you also can check it here: [Original Documentation](https://mybot-team.github.io/documentacion/guia/en-marcha-primer-bot.html)
+
