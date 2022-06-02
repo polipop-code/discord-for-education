@@ -105,8 +105,13 @@
 }
 
 .footer_second_section img {
-    width: 6rem;
-    margin: 0 0.8rem;
+    width: 4rem;
+    margin: 0 2rem;
+    transition: all 0.12s ease-in-out;
+}
+
+.footer_second_section img:hover {
+    transform: scale(1.24);
 }
 
 /* Media queries */
